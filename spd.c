@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum, pro;
+    int num1, num2, sum, pro, div;
 
     // Taking input from the user
     printf("Enter two numbers: ");
@@ -10,6 +10,7 @@ int main() {
     // Adding the numbers
     sum = num1 + num2;
     pro = num1 * num2;
+    div = num1 / num2;
 
     // Displaying the result
     printf("Sum = %d\n", sum);
